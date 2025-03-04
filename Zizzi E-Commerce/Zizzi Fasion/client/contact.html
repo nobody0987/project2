@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zizzi</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+    <!--My CSs-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar">
+        <h1>Zizzi</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact us</a></p>
+        </div>
+        <div class="navbar-menu_toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--Side nav bar-->
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark" onclick="closenavbar()"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact us</a></p>
+        </div>
+    </div>
+
+    <!--Contact Section-->
+
+    <div class="contact-section">
+        <h2>Contact us</h2>
+        <div class="contact-element">
+            <p>Name:</p>
+            <input type="text">
+            <p>Email:</p>
+            <input type="text">
+        </div>
+        <div class="contact-element">
+            <p>Message:</p>
+            <textarea placeholder="Write Something"> </textarea>
+        </div>
+        <button onclick="contactsubmit()">Submit</button>
+    </div>
+  <section>
+<!--<div class="container">
+    <h1>Contact</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+        <p>For immediate assistance, call us at: <strong>+1 (123) 456-7890</strong></p>
+        <p>Email us at: <strong>support@grocerystore.com</strong></p>
+        <p>Address: 123 Grocery Lane, Cityville, State, 12345</p>
+    </div>
+</div>-->
+</section>
+
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="">Zizzi</h2>
+                <p>Welcome to Zizzi, where style meets elegance. Explore trendy, high-quality fashion designed for confidence and comfort.</p>
+
+                <div class="footer-icon-container">
+                 
+                    <i  class="fa-brands fa-instagram"   style="color: #fff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #fff;"></i>
+                    <i class="fa-brands fa-whatsapp" style="color: #fff;"></i>
+
+                </div>
+            </div>
+        </div>
+        <p>@2025 Zizzi.com </p>
+    </div>
+</body>
+<script src="index.js"></script>
+<script src="collection.js"></script>
+
+</html>
